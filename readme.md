@@ -31,7 +31,7 @@ This project collects comprehensive commit data from GitHub repositories, storin
     ```bash
     pip install PyGithub gitpython
     ```
-3.  Configure Environment Variables: Update a `config.py` file or set environment variables for your GitHub PAT and local storage paths:
+3.  Configure Environment Variables: Update a `config.py` file or use existing values:
     ```
     #example
     GITHUB_TOKEN="ghp_YOUR_PERSONAL_ACCESS_TOKEN"
