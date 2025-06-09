@@ -1,0 +1,22 @@
+id,repo_id,sha,author_name,author_email,author_date,committer_name,committer_email,committer_date,message,tree_sha,parent_shas,num_files_changed,lines_added,lines_deleted,url,diff_local_path,metadata
+bbc82319-7a27-46f3-b582-de74b5be8bc1,b4489426-385f-44d4-97b5-772b9ca0d42d,874b2bca9676ce254b55fa61103e405ad9f3f3ef,削微寒,595666367@qq.com,,削微寒,595666367@qq.com,,update,882931d503505f6c51a2a87d0247dae461b3b7b1,"[""d18debfc6d599298a4776a0c85480d5bb8cfd419""]",221,227,227,https://api.github.com/repos/521xueweihan/HelloGitHub/commits/874b2bca9676ce254b55fa61103e405ad9f3f3ef,,{}
+93ef1de8-d00f-4f39-bcd6-3acdd46740a8,f3f9cdb6-a833-4634-9003-7e5e3cd324f3,4b12a2818a7eb4ac45da8afedeb29d7030104f03,Charlie ✨,,,GitHub Web Flow,,,✏️ Remove redundant words in docs/zh/docs/python-types.md (#13774),bd6bcdbc2eb3cf7d37fd6c886c940bbabc028233,"[""9ab43cc5eda66c7622ea8f4ecf70f76b7499d772""]",1,1,1,https://api.github.com/repos/fastapi/fastapi/commits/4b12a2818a7eb4ac45da8afedeb29d7030104f03,,{}
+f725793f-aea1-458b-95c8-50ff777db5db,dbb5eecd-fde7-45db-8469-1bff4f545064,d7b87b415a5dd4a3152051e1a0abd098a02c5bfa,Isotr0py,mozf@mail2.sysu.edu.cn,,GitHub Web Flow,,,"Fix qwen2-audio chat template audio placeholder insertion (#38640)
+
+* fix qwen2-audio template
+
+Signed-off-by: Isotr0py <2037008807@qq.com>
+
+* add message['type'] back
+
+Signed-off-by: Isotr0py <2037008807@qq.com>
+
+---------
+
+Signed-off-by: Isotr0py <2037008807@qq.com>",cafe3ae8e9192c2ecaa5c9a6e88d619468a83d38,"[""10627c1a0f6877ce6715b9537afe7fafb2a89edd""]",1,1,1,https://api.github.com/repos/huggingface/transformers/commits/d7b87b415a5dd4a3152051e1a0abd098a02c5bfa,,{}
+7f59fa07-03a0-4a22-a958-7efe8faabf58,dbb5eecd-fde7-45db-8469-1bff4f545064,237ff80387ef453b1bb341c0b5d6cbcb5e60758d,StevenBucaille,,,GitHub Web Flow,,,"Fixed modeling_auto.py MODEL_FOR_MASK_GENERATION_MAPPING_NAMES variable (#38664)
+
+fix: grouped the two MODEL_FOR_MASK_GENERATION_MAPPING_NAMES variables",e67733ee7d6029e36b48cf5bca21ef8fb7ca7c00,"[""d7b87b415a5dd4a3152051e1a0abd098a02c5bfa""]",1,0,5,https://api.github.com/repos/huggingface/transformers/commits/237ff80387ef453b1bb341c0b5d6cbcb5e60758d,,{}
+71efd503-edb0-4afe-909f-873cca442bb7,dbb5eecd-fde7-45db-8469-1bff4f545064,19224c3642705c5b6988c9f5f4251f83323d05ae,Anthony,,,GitHub Web Flow,,,"fix: ""check out"" as verb (#38678)
+
+""check out"" as verb",ced07713ac6d1eb5746a8dd6d72a837f64bda5bc,"[""237ff80387ef453b1bb341c0b5d6cbcb5e60758d""]",75,91,91,https://api.github.com/repos/huggingface/transformers/commits/19224c3642705c5b6988c9f5f4251f83323d05ae,,{}
