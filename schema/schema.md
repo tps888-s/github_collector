@@ -36,7 +36,6 @@
     diff_local_path (String): Path to diff
     metadata (JSONB, Nullable): Flexible field for future, unstructured commit-level metadata (e.g., associated pull request ID, CI status).
 
-id,commit_id,file_path,status,additions,deletions,changes,patch,previous_filename,file_type,blob_before_local_path,blob_after_local_path,metadata
 
 ### 3. CommitFileChanges Table
     Purpose: Links commits to the specific files they modified and stores details about that modification within the context of the commit. This captures the diff information.
