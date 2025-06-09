@@ -1,4 +1,3 @@
----
 
 # GitHub Commit Data Collector
 
@@ -57,5 +56,3 @@ The `github_repo_discovery` DAG will periodically find and add new repositories 
 * `repositories.csv`: Stores metadata about each GitHub repository.
 * `commits.csv`: Contains details for each commit, including author, message, and summary statistics.
 * `commit_files.csv`: Links commits to the files they changed, providing granular details like additions, deletions, and local paths to the file's content before and after the commit.
-
----
