@@ -60,7 +60,7 @@ This project collects comprehensive commit data from GitHub repositories, storin
     GitHub API Access: Obtain a GitHub Personal Access Token (PAT) with appropriate permissions.
     Data Ingestion Pipeline: Develop a robust application/script to:
     Fetch repository metadata.
-    Clone repositories (or use Git API for lightweight data).
+    Clone repositories.
     Iterate through commit history.
     Extract commit details, file changes, and file contents.
     Transform data into the defined schema.
