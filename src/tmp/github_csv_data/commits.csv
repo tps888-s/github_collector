@@ -1,0 +1,206 @@
+id,repo_id,sha,author_name,author_email,committer_name,committer_email,message,tree_sha,parent_shas,num_files_changed,lines_added,lines_deleted,url,diff_local_path,metadata
+6385c570-e56a-4e77-b505-fcde2a4591ae,88551352-6fad-4a37-aee6-6a9646bb45e7,8fd21b0da35697591e86f4eab0035c4360a45144,Jacob Walls,,GitHub Web Flow,,Refs #10785 -- Added missing __hash__() method to custom pk test model.,84fb976d1da742fb0b674edf330326bf362c2205,"[""c1fa3fdd040718356e5a3b9a0fe699d73f47a940""]",1,3,0,https://api.github.com/repos/django/django/commits/8fd21b0da35697591e86f4eab0035c4360a45144,,{}
+1c464aeb-9cff-49a4-8d03-af0742ff351d,5b6c1eb6-4170-47e4-baaa-d0c4872e35ed,d7b87b415a5dd4a3152051e1a0abd098a02c5bfa,Isotr0py,mozf@mail2.sysu.edu.cn,GitHub Web Flow,,"Fix qwen2-audio chat template audio placeholder insertion (#38640)
+
+* fix qwen2-audio template
+
+Signed-off-by: Isotr0py <2037008807@qq.com>
+
+* add message['type'] back
+
+Signed-off-by: Isotr0py <2037008807@qq.com>
+
+---------
+
+Signed-off-by: Isotr0py <2037008807@qq.com>",cafe3ae8e9192c2ecaa5c9a6e88d619468a83d38,"[""10627c1a0f6877ce6715b9537afe7fafb2a89edd""]",1,1,1,https://api.github.com/repos/huggingface/transformers/commits/d7b87b415a5dd4a3152051e1a0abd098a02c5bfa,,{}
+194ba04b-345d-4efd-95fc-80ee458fc195,5b6c1eb6-4170-47e4-baaa-d0c4872e35ed,237ff80387ef453b1bb341c0b5d6cbcb5e60758d,StevenBucaille,,GitHub Web Flow,,"Fixed modeling_auto.py MODEL_FOR_MASK_GENERATION_MAPPING_NAMES variable (#38664)
+
+fix: grouped the two MODEL_FOR_MASK_GENERATION_MAPPING_NAMES variables",e67733ee7d6029e36b48cf5bca21ef8fb7ca7c00,"[""d7b87b415a5dd4a3152051e1a0abd098a02c5bfa""]",1,0,5,https://api.github.com/repos/huggingface/transformers/commits/237ff80387ef453b1bb341c0b5d6cbcb5e60758d,,{}
+1be8688e-07fb-4ef0-8412-040a1aaaa8f3,5b6c1eb6-4170-47e4-baaa-d0c4872e35ed,19224c3642705c5b6988c9f5f4251f83323d05ae,Anthony,,GitHub Web Flow,,"fix: ""check out"" as verb (#38678)
+
+""check out"" as verb",ced07713ac6d1eb5746a8dd6d72a837f64bda5bc,"[""237ff80387ef453b1bb341c0b5d6cbcb5e60758d""]",75,91,91,https://api.github.com/repos/huggingface/transformers/commits/19224c3642705c5b6988c9f5f4251f83323d05ae,,{}
+3b24a9bf-b583-42d8-b059-9309d17a0a08,5b6c1eb6-4170-47e4-baaa-d0c4872e35ed,282d6684dc0a611e97dff464aa9fa9e4adaed092,,,GitHub Web Flow,,Fix attention mask expansion when converting to executorch (#38637),e2d4316f7186cf4e92941b41e3948fc6efe4f281,"[""19224c3642705c5b6988c9f5f4251f83323d05ae""]",1,1,1,https://api.github.com/repos/huggingface/transformers/commits/282d6684dc0a611e97dff464aa9fa9e4adaed092,,{}
+278a8e57-0441-403b-be5d-367bfd69e57a,5b6c1eb6-4170-47e4-baaa-d0c4872e35ed,b31d462c61b19cd00a08d1cc85cecfe5f59cdde3,xiao,,GitHub Web Flow,,"Fix some models import (#38694)
+
+Fix models import",553a446d706f2d34b98f293b37a4a0f4d7d1da4d,"[""282d6684dc0a611e97dff464aa9fa9e4adaed092""]",1,5,0,https://api.github.com/repos/huggingface/transformers/commits/b31d462c61b19cd00a08d1cc85cecfe5f59cdde3,,{}
+2745b775-3c14-408f-a199-e5988046480c,5b6c1eb6-4170-47e4-baaa-d0c4872e35ed,11dca07a1090fa0e2d4a1eecb0ec6e3a37d6b390,Fiona Waters,fiwaters6@gmail.com,GitHub Web Flow,,"Fix retrieve function signature and remove faiss requirement (#38624)
+
+Signed-off-by: Fiona Waters <fiwaters6@gmail.com>",a2a9b4133ea0386e14350a8d161a30cabc097066,"[""b31d462c61b19cd00a08d1cc85cecfe5f59cdde3""]",1,9,5,https://api.github.com/repos/huggingface/transformers/commits/11dca07a1090fa0e2d4a1eecb0ec6e3a37d6b390,,{}
+18658280-bb45-4d7c-930e-3ef7ec7a28e4,5b6c1eb6-4170-47e4-baaa-d0c4872e35ed,b9faf2f93085e3cf2c65184a69d1d9e502f95786,,,GitHub Web Flow,,"Fix TypeError: 'NoneType' object is not iterable for esm (#38667) (#38668)
+
+Add post_init() calls to EsmForMaskedLM, EsmForTokenClassification and EsmForSequenceClassification.",73136af6c35a1a668e75ca17d76aee9124bf2df9,"[""11dca07a1090fa0e2d4a1eecb0ec6e3a37d6b390""]",1,6,0,https://api.github.com/repos/huggingface/transformers/commits/b9faf2f93085e3cf2c65184a69d1d9e502f95786,,{}
+4e2a815c-276b-4d6d-aaaa-7c1e5caf7624,bf3ac25d-c9f1-41dc-84f7-abee38b9910b,874b2bca9676ce254b55fa61103e405ad9f3f3ef,削微寒,595666367@qq.com,削微寒,595666367@qq.com,update,882931d503505f6c51a2a87d0247dae461b3b7b1,"[""d18debfc6d599298a4776a0c85480d5bb8cfd419""]",221,227,227,https://api.github.com/repos/521xueweihan/HelloGitHub/commits/874b2bca9676ce254b55fa61103e405ad9f3f3ef,,{}
+0626ac66-21fa-4e16-b844-2cc2656e9d47,4052dee8-563f-4240-b9b2-4716e64ae233,d41f62b7a06c51e4a57df4d58e7a2d86d2faa875,Abhinav Tharamel,contact@abhinavtb.com,,,"Fix/issue #155027 (#155252)
+
+Fixes #155027
+Converted RST files to Markdown
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/155252
+Approved by: https://github.com/svekars
+
+Co-authored-by: Svetlana Karslioglu <svekars@meta.com>",425fca2a48b2f162e43cce3f445c5ac0cd4fdd64,"[""3d82a1dfb59fa5e248f7499a7ecdf784d4f61c0e""]",5,322,269,https://api.github.com/repos/pytorch/pytorch/commits/d41f62b7a06c51e4a57df4d58e7a2d86d2faa875,,{}
+cfbdebe2-77fb-4bc3-b93e-d13ce197d145,4052dee8-563f-4240-b9b2-4716e64ae233,2908c10259bac21b00e9b36318e364801e0ae910,Parag Ekbote,23150020.dypsst@dpu.edu.in,,,"Document the default garbage_collection_threshold value and improve the organization of cuda docs (#155341)
+
+Fixes #150917
+
+As mentioned in the issue, I've updated the documentation of `garbage_collection_threshold`and improved the organization.
+
+Could you please review?
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/155341
+Approved by: https://github.com/AlannaBurke, https://github.com/ngimel",592b8944997184f5bf9c38880f1242995969447a,"[""d41f62b7a06c51e4a57df4d58e7a2d86d2faa875""]",1,5,3,https://api.github.com/repos/pytorch/pytorch/commits/2908c10259bac21b00e9b36318e364801e0ae910,,{}
+80374847-ddb0-4fa5-98f8-82f41fd99aea,4052dee8-563f-4240-b9b2-4716e64ae233,be2ad70cfa1360da5c23a04ff6ca3480fa02f278,James Wu,,,,"Fix dynamo tracing into AOTAutogradCache results in cpu tensors (#155251)
+
+On this line, we see that the bw_compiler that dynamo uses for AotAutograd automatically disables the backward runnable:
+https://github.com/pytorch/pytorch/blob/05dd638ee98b36254c84095894c36fd0e7d95544/torch/_dynamo/backends/common.py#L76
+This disables dynamo in the bw_compiler but also disables the runnable the compiler returns.
+
+On a AOTAutogradCache hit, however, we never call the bw_compiler! So we don't disable dynamo properly. This only has an effect on certain cases of cpu tensors' backwards, where the backward is being done in python land, and dynamo unnecessarily tries to trace through the inductor generated code. It also only matters if the backward is being accessed outside of dynamo itself (say, in a graph break in eager mode), since dynamo properly disables the forward function already.
+
+```
+I0605 09:58:40.135000 3981970 torch/_dynamo/eval_frame.py:517] TorchDynamo attempted to trace the following frames: [
+I0605 09:58:40.135000 3981970 torch/_dynamo/eval_frame.py:517]   * fn /home/jjwu/test.py:9
+I0605 09:58:40.135000 3981970 torch/_dynamo/eval_frame.py:517]   * cast /data/users/jjwu/a/pytorch-env/lib/python3.10/typing.py:1737
+I0605 09:58:40.135000 3981970 torch/_dynamo/eval_frame.py:517]   * call /tmp/torchinductor_jjwu/rq/crq327nhoyjzog5n3qlchauucdrunrtutwmmoh7ipoe2ngnson5s.py:35
+I0605 09:58:40.135000 3981970 torch/_dynamo/eval_frame.py:517]   * fn /home/jjwu/test.py:9
+I0605 09:58:40.135000 3981970 torch/_dynamo/eval_frame.py:517]   * cast /data/users/jjwu/a/pytorch-env/lib/python3.10/typing.py:1737
+I0605 09:58:40.135000 3981970 torch/_dynamo/eval_frame.py:517]   * call /tmp/torchinductor_jjwu/rq/crq327nhoyjzog5n3qlchauucdrunrtutwmmoh7ipoe2ngnson5s.py:35
+I0605 09:58:40.135000 3981970 torch/_dynamo/eval_frame.py:517] ]
+
+```
+
+This PR fixes the issue and adds a unit test showing that with or without cache hit, the frames dynamo is tracing is identical.
+
+Fixes https://github.com/pytorch/pytorch/issues/154536
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/155251
+Approved by: https://github.com/bdhirsh, https://github.com/anijain2305",34be0a28980a09cd1b683aca585cf60fb166a783,"[""2908c10259bac21b00e9b36318e364801e0ae910""]",3,60,2,https://api.github.com/repos/pytorch/pytorch/commits/be2ad70cfa1360da5c23a04ff6ca3480fa02f278,,{}
+4f0c3ba1-740d-4c41-9dfc-a7e1df301629,4052dee8-563f-4240-b9b2-4716e64ae233,6fb62931593fc10252e4994cd1a0595ebf8e990f,,,,,"Revert ""Add Intel GPU info collection to the collect env script (#137846)""
+
+This reverts commit c6b4f98625bb6b22bb9a60112a6d58e684a97e1b.
+
+Reverted https://github.com/pytorch/pytorch/pull/137846 on behalf of https://github.com/etaf due to This is breaking tests on xpu, detail log: https://hud.pytorch.org/pr/pytorch/pytorch/154962#43700962849 ([comment](https://github.com/pytorch/pytorch/pull/137846#issuecomment-2954517883))",2492e8b9972b34b8210d5a17b1e5f65f946bc360,"[""be2ad70cfa1360da5c23a04ff6ca3480fa02f278""]",1,4,182,https://api.github.com/repos/pytorch/pytorch/commits/6fb62931593fc10252e4994cd1a0595ebf8e990f,,{}
+04a97c86-48a4-48cc-b4c2-be4f4bec7341,4052dee8-563f-4240-b9b2-4716e64ae233,9b4a748e29a720d0fade7e1298a68cc36cfd5f5e,Yiming Zhou,,,,"[nativert] Move Weights to PyTorch core (#155156)
+
+Summary:
+Moves Weights class to PyTorch core
+Torch Native Runtime RFC: pytorch/rfcs#72
+ README: https://github.com/pytorch/pytorch/blob/main/torch/nativert/OVERVIEW.md
+
+Test Plan: buck2 run mode/dev-nosan caffe2/test/cpp/nativert:weights_test
+
+Differential Revision: D75973156
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/155156
+Approved by: https://github.com/zhxchen17",b8ae5e6a15c64ad5a885d575dac9068bacdd6871,"[""6fb62931593fc10252e4994cd1a0595ebf8e990f""]",5,678,0,https://api.github.com/repos/pytorch/pytorch/commits/9b4a748e29a720d0fade7e1298a68cc36cfd5f5e,,{}
+e80cec77-911e-4a92-8dc7-26c456f8b464,4052dee8-563f-4240-b9b2-4716e64ae233,9968c854b6a38857d05fb1da7bea797fbf23c880,Yuanhao Ji,jiyuanhao@apache.org,,,"[Dynamo] Replace `unimplemented` with `unimplemented_v2` in `torch/_dynamo/variables/tensor.py` (#153146)
+
+Part of #147913
+
+Replace `unimplemented` with`unimplemented_v2` in `torch/_dynamo/variables/tensor.py`
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/153146
+Approved by: https://github.com/williamwen42
+
+Co-authored-by: William Wen <william.wen42@gmail.com>",c2f015c67d70da2b7ae9f00368d0e4d2401b7633,"[""9b4a748e29a720d0fade7e1298a68cc36cfd5f5e""]",4,188,29,https://api.github.com/repos/pytorch/pytorch/commits/9968c854b6a38857d05fb1da7bea797fbf23c880,,{}
+e456da74-5ded-4603-87ae-c8327be73bfa,4052dee8-563f-4240-b9b2-4716e64ae233,e15848669f84d3767bfca724a29a6a6dde3308b9,,,,,"[1/n]adding torch.distributed.run option to provide destination for event logging (#154644) (#155268)
+
+Summary:
+
+**Problem Statement**
+Currently, torch distributed elastic does not support to an option specify destination for event logging from torch.distributed.run.
+*recording events to default destination:* https://fburl.com/code/7f9b0993
+The default destination is ""null"".
+
+***Solution***
+adding option in torch.destributed.run to specify event_logging_destination. The default value will be ""null"" which is current default so it won;t affect users unless the specify it via command line.
+
+Test Plan:
+
+https://www.internalfb.com/mlhub/pipelines/runs/mast/f738408681-TrainingApplication_torch_distributed_run_3?job_attempt=0&version=0&tab=execution_details&env=PRODUCTION
+
+Rollback Plan:
+
+Reviewed By: kiukchung
+
+Differential Revision: D75183591
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/155268
+Approved by: https://github.com/d4l3k",a56f3ca583bbe9c7b288c9731d62c2d9db6b2a5e,"[""9968c854b6a38857d05fb1da7bea797fbf23c880""]",3,31,13,https://api.github.com/repos/pytorch/pytorch/commits/e15848669f84d3767bfca724a29a6a6dde3308b9,,{}
+847202ce-06c3-44a4-a35f-c6fb174ad3b3,4052dee8-563f-4240-b9b2-4716e64ae233,79aef141695f2daea4a9aeb0f385726c5794a242,Justin Chu,,,,"[ONNX] Set the name of the producing node using the value name (#155413)
+
+When comparing two graphs exported using different opset versions, even though the value names are the same in both graphs, the node names did not match, causing model-explorer to not be able to sync the two graphs. This change updates the names of the nodes that directly produce the output values, for better correspondence across exported graphs.
+
+![image](https://github.com/user-attachments/assets/3c00ca18-221f-4add-8429-4bcf12069036)
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/155413
+Approved by: https://github.com/cyyever, https://github.com/xadupre",d5d222224cade0d71c590c4c2b9d7c3d6f426403,"[""e15848669f84d3767bfca724a29a6a6dde3308b9""]",1,7,0,https://api.github.com/repos/pytorch/pytorch/commits/79aef141695f2daea4a9aeb0f385726c5794a242,,{}
+a7a28780-63bb-42f7-9103-66771c103b12,4052dee8-563f-4240-b9b2-4716e64ae233,b9b84d8011b08ac62cabf9100043c65863372fea,Sheng Fu,shengfu@meta.com,,,"Generate unique id for tensor storage object by observing the week pointer of tensor storage object (#154859)
+
+Summary:
+PyTorch execution trace records tensor storage data in the trace. The tensor storage data includes storage id, offset, number of elements, and number of byte for each element. PARAM et-replay uses this information to allocate/free the tensors.
+However, the current implementation of generating tensor storage id does not guarantee it is unique. ExecutionTraceObserver maintains a lookup table to map the memory address of the tensor storage object to an unique id. If a new memory address is found, it will be put into that hash table and associate it to a new id.
+This implementation does not guarantee the storage object is unique since the memory that the address points to may be released and then re-allocated to a different tensor storage object.
+
+Test Plan: buck2 run mode/opt caffe2/test:test_profiler_cuda -- profiler.test_execution_trace.TestExecutionTraceCUDA
+
+Differential Revision: D75749065
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/154859
+Approved by: https://github.com/eellison, https://github.com/ngimel",848e310b6bb058dc4c1e83676b8e99dcc029df8f,"[""79aef141695f2daea4a9aeb0f385726c5794a242""]",2,39,9,https://api.github.com/repos/pytorch/pytorch/commits/b9b84d8011b08ac62cabf9100043c65863372fea,,{}
+56953a6b-8003-4930-a55f-d0500a0e4382,4052dee8-563f-4240-b9b2-4716e64ae233,4a4cac0cefea3661cc69cfdafdba64832ee0841a,"Cui, Yifeng",yifeng.cui@intel.com,,,"Update torch-xpu-ops commit pin (#154962)
+
+Update the torch-xpu-ops commit to [intel/torch-xpu-ops@`a3a196`](https://github.com/intel/torch-xpu-ops/commit/a3a196ccdbcbc399e157b6bcf8f5611e6561b6d6) includes:
+
+- Enhanced Adaptive Average Pooling 2D Backward Kernel for performance and code simplification
+- Group Norm Backward Optimization with vectorization and parallel reduction
+- Support CL path for MaxUnpooling2d and MaxUnpooling3d
+- Rename USE_ONEMKL as USE_ONEMKL_XPU and set it as default ON
+- Refactor USE_XCCL & USE_C10D_XCCL option
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/154962
+Approved by: https://github.com/EikanWang",701abe092e136d3c9a339916c194211da58784ed,"[""b9b84d8011b08ac62cabf9100043c65863372fea""]",1,1,1,https://api.github.com/repos/pytorch/pytorch/commits/4a4cac0cefea3661cc69cfdafdba64832ee0841a,,{}
+7405ad25-de98-4420-a21e-60d8bd7aaaeb,4052dee8-563f-4240-b9b2-4716e64ae233,6c05f2fca049344fbbb55eed7a6c866f34c8a477,Brian Hirsh,briandhirsh@gmail.com,,,"[test] use JK to force graph break on slow aliasing/mutation/dynamic_shape behavior (#155257)
+
+Summary: test to unblock shampoo, needs cleanup
+
+Test Plan:
+CI
+
+Rollback Plan:
+steps:
+  - jk.update:
+      jk: pytorch/compiler:aliased_inputs_with_mutation_and_dyn_shapes_killswitch
+      constant_bool: null
+      consistent_pass_rate: null
+      fractional_host_rollout: null
+      sampling_rate: null
+  - manual.note:
+      content: Set it to false.
+
+Reviewed By: c00w
+
+Differential Revision: D76051868
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/155257
+Approved by: https://github.com/c00w",141416f24744a5dfa27ef80b8764154cae11c47e,"[""4a4cac0cefea3661cc69cfdafdba64832ee0841a""]",3,21,0,https://api.github.com/repos/pytorch/pytorch/commits/6c05f2fca049344fbbb55eed7a6c866f34c8a477,,{}
+64838e6c-ff70-4a8c-beac-288f5dfbfc83,4052dee8-563f-4240-b9b2-4716e64ae233,0083032e7559dc8f02483ba60373adfcdaf9dae6,Ivan Kobzarev,ivan.kobzarev@gmail.com,,,"[aotd] Support mutations in reordering_to_mimic_autograd_engine (#155353)
+
+Original issue: https://github.com/pytorch/pytorch/issues/154820
+
+Dedicated sub-issue: https://github.com/pytorch/pytorch/issues/155242
+
+Backward graph is reordered by partitioners.py: reordering_to_mimic_autograd_engine
+
+Which only records in the backward graph compute that starts from tangents.
+
+Mutation of primals(inputs) in backward can be disconnected from backward.
+
+Handling this copy_ specifically, as we  add this mutation in framework and this is the only mutation that exist.
+
+Pull Request resolved: https://github.com/pytorch/pytorch/pull/155353
+Approved by: https://github.com/bdhirsh, https://github.com/zou3519",a0248e519f711d54c6e610cb6b6a9cdae78e6acf,"[""6c05f2fca049344fbbb55eed7a6c866f34c8a477""]",2,42,0,https://api.github.com/repos/pytorch/pytorch/commits/0083032e7559dc8f02483ba60373adfcdaf9dae6,,{}
+9eda1e82-6747-42f6-afaf-43ff12ef0dd6,4052dee8-563f-4240-b9b2-4716e64ae233,79bdafe5b61f6f073dcd276e135076ff3277a951,,,,,"Revert ""Custom FX pass for inductor's backend registration (#154841)""
+
+This reverts commit e694280d1215caf70f41575f2611bfa26c69ebdb.
+
+Reverted https://github.com/pytorch/pytorch/pull/154841 on behalf of https://github.com/clee2000 due to failing some tests internally D76135706 ([comment](https://github.com/pytorch/pytorch/pull/154841#issuecomment-2956357711))",3a7dab76d2c7e8e88947463e5bb055d4e0e82938,"[""0083032e7559dc8f02483ba60373adfcdaf9dae6""]",10,36,213,https://api.github.com/repos/pytorch/pytorch/commits/79bdafe5b61f6f073dcd276e135076ff3277a951,,{}
