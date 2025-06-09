@@ -24,7 +24,7 @@ This project collects comprehensive commit data from GitHub repositories, storin
 
 1.  Clone the Repository:
     ```bash
-    git clone https://github.com/tps888-s/github_collector/
+    git clone https://github.com/tps888-s/github_collector.git
     cd github_collector
     ```
 2.  Install Python Dependencies:
@@ -37,11 +37,10 @@ This project collects comprehensive commit data from GitHub repositories, storin
     GITHUB_TOKEN="ghp_YOUR_PERSONAL_ACCESS_TOKEN"
     LOCAL_REPO_BASE_PATH="/path/to/your/local/git_repos"
     LOCAL_FILE_BLOBS_BASE_PATH="/path/to/your/local/file_blobs"
-    LOCAL_RAW_DIFFS_BASE_PATH="/path/to/your/local/raw_diffs" # Optional, if you store raw diffs
+    LOCAL_RAW_DIFFS_BASE_PATH="/path/to/your/local/raw_diffs" # Optional
     CSV_OUTPUT_BASE_PATH="/path/to/your/local/csv_data"
     ```
     Ensure these local paths exist and have sufficient disk space.
-
 
 ## Data Schema (CSV Files)
 
@@ -51,3 +50,18 @@ This project collects comprehensive commit data from GitHub repositories, storin
 
 ## Detailed schema description
     schema/schema.md
+
+## DAGs examples
+    dags/repo_discovery_dag.py *Discovering Repositories*
+    dags/commit_collector_dag.py *Processes commits for repository(-ies).*
+
+## Overall Strategy:
+    Identify Target Repositories: Decide on criteria for selecting repositories (e.g., language, stars, activity, specific organizations).
+    GitHub API Access: Obtain a GitHub Personal Access Token (PAT) with appropriate permissions.
+    Data Ingestion Pipeline: Develop a robust application/script to:
+    Fetch repository metadata.
+    Clone repositories (or use Git API for lightweight data).
+    Iterate through commit history.
+    Extract commit details, file changes, and file contents.
+    Transform data into the defined schema.
+    Storage: Utilize S3-like object storage for raw file content and a database for structured metadata.

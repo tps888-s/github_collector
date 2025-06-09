@@ -31,8 +31,8 @@ REPOS_CSV_HEADERS = [
     'description', 'stars', 'forks', 'created_at', 'last_fetched_at'
 ]
 COMMITS_CSV_HEADERS = [
-    'id', 'repo_id', 'sha', 'author_name', 'author_email', 'author_date',
-    'committer_name', 'committer_email', 'committer_date', 'message',
+    'id', 'repo_id', 'sha', 'author_name', 'author_email',
+    'committer_name', 'committer_email', 'message',
     'tree_sha', 'parent_shas', 'num_files_changed', 'lines_added',
     'lines_deleted', 'url', 'diff_local_path', 'metadata'
 ]
@@ -341,7 +341,7 @@ if __name__ == "__main__":
     #discover_and_add_repositories(query="language:Python stars:>1000 pushed:>2025-06-08", limit=5)
 
     print("\n--- Getting Repositories for Incremental Processing ---")
-    repos_to_update_full_names = get_repos_for_processing(batch_size=50)
+    repos_to_update_full_names = get_repos_for_processing(batch_size=10)
     print(f"Found repos to update: {repos_to_update_full_names}")
     for repo_full_name in repos_to_update_full_names:
         process_single_repository(repo_full_name)

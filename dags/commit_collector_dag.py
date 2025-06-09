@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 from ..src.github_collector import get_repos_for_processing, process_single_repository
 
@@ -16,15 +16,14 @@ with DAG(
         'depends_on_past': False,
         'email_on_failure': False,
         'email_on_retry': False,
-        'retries': 1,
-        'retry_delay': timedelta(minutes=10),
+        'retries': 3,
+        'retry_delay': timedelta(minutes=5),
         'max_active_runs': 1
     }
 ) as dag:
 
     def _get_repos_to_process_callable(ti, **kwargs):
         """Callable for the get_repos_to_process task."""
-        # No DB initialization needed here for CSV approach
         repos_full_names = get_repos_for_processing(
             batch_size=kwargs.get('batch_size', 5),
             last_fetched_threshold_hours=kwargs.get('last_fetched_threshold_hours', 1)
@@ -43,7 +42,6 @@ with DAG(
 
     def _process_single_repository_callable(repo_full_name, **kwargs):
         """Callable for processing a single repository."""
-        # No DB initialization needed here for CSV approach
         process_single_repository(repo_full_name) # github_collector function directly handles CSV
 
     process_repo_task = PythonOperator(

@@ -2,11 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tmp/github_repos/521xueweihan/HelloGitHub" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tmp/github_repos/Significant-Gravitas/AutoGPT" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tmp/github_repos/fastapi/fastapi" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tmp/github_repos/home-assistant/core" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tmp/github_repos/huggingface/transformers" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tmp/github_repos/pytorch/pytorch" vcs="Git" />
   </component>
 </project>

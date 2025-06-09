@@ -2,11 +2,11 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
-from github_collector import discover_and_add_repositories # This import remains the same
+from ..src.github_collector import discover_and_add_repositories
 
 with DAG(
     dag_id='github_repo_discovery',
-    start_date=datetime(2023, 1, 1),
+    start_date=datetime(2025, 6, 1),
     schedule_interval='@weekly',
     catchup=False,
     tags=['github', 'data_ingestion', 'discovery', 'csv'],
@@ -23,7 +23,7 @@ with DAG(
         task_id='discover_and_add_popular_repositories',
         python_callable=discover_and_add_repositories,
         op_kwargs={
-            'query': 'stars:>2000 language:Python',
-            'limit': 50
+            'query': 'language:Python stars:>1000 pushed:>2025-06-08',
+            'limit': 5
         }
     )
