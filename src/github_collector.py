@@ -337,8 +337,8 @@ def get_repos_for_processing(batch_size=10, last_fetched_threshold_minutes=1):
 
 # --- Example Usage (for local testing) ---
 if __name__ == "__main__":
-    #print("--- Discovering Repositories ---")
-    #discover_and_add_repositories(query="language:Python stars:>1000 pushed:>2025-06-08", limit=5)
+    print("--- Discovering Repositories ---")
+    discover_and_add_repositories(query="language:Python stars:>1000 pushed:>2025-06-08", limit=5)
 
     print("\n--- Getting Repositories for Incremental Processing ---")
     repos_to_update_full_names = get_repos_for_processing(batch_size=10)
