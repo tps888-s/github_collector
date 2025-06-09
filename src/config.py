@@ -1,6 +1,8 @@
 import os
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "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") # IMPORTANT: Use env var in production
+with open("token.txt", "r", encoding="utf-8") as file:
+    token = file.read()
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", token) # IMPORTANT: add file with your token
 
 # --- Local Storage Paths for Repos, Blobs, Diffs, and CSVs ---
 LOCAL_REPO_BASE_PATH = os.getenv("LOCAL_REPO_BASE_PATH", "C:\\Users\\Emily\\PycharmProjects\\github_collector\\tmp\github_repos")
